@@ -1,2 +1,7 @@
-import React from 'react';
-import './Header.css';
+import React from "react";
+
+const ImageThumbnail = () => {
+  return <img src="./public/favicon.ico" alt="React Logo" />;
+};
+
+export default ImageThumbnail;
