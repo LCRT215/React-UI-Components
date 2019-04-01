@@ -1,9 +1,15 @@
 import React from "react";
 import "./App.scss";
 import HeaderContainer from "./components/HeaderComponents/HeaderContainer.js";
+import CardContainer from "./components/CardComponents/CardContainer.js";
 
 const App = () => {
-  return <HeaderContainer />;
+  return (
+    <div>
+      <HeaderContainer />
+      <CardContainer />
+    </div>
+  );
 };
 
 export default App;
