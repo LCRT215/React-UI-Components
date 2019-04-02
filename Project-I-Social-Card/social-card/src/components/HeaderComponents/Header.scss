@@ -1,23 +1,23 @@
 /* All styles for your header Components live here */
-.header {
-  border: 2px solid blue;
-
+.body {
   .title {
     display: flex;
     h1 {
       font-size: 18px;
       margin-right: 5px;
+      margin-left: 80px;
     }
     .smalltitle {
       font-size: 14px;
       color: darkgray;
+      padding-top: 15px;
     }
   }
 
   .content {
     font-size: 14px;
-
     margin: 0;
+    margin-left: 80px;
     margin-bottom: 10px;
   }
 }

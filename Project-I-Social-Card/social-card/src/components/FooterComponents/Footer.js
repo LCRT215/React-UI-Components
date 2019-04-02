@@ -4,10 +4,10 @@ import "./Footer.scss";
 const FooterContainer = () => {
   return (
     <div className="footer">
-      <i class="far fa-comment" />
-      <i class="fas fa-exchange-alt" />
-      <i class="far fa-heart" />
-      <i class="far fa-envelope" />
+      <i className="far fa-comment" />
+      <i className="fas fa-exchange-alt" />
+      <i className="far fa-heart" />
+      <i className="far fa-envelope" />
     </div>
   );
 };
