@@ -4,3 +4,32 @@
   height: auto;
   border: darkgray solid 3px;
 }
+.number-containers {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row1 {
+  width: 100%;
+}
+
+button {
+  width: 111px;
+  height: 80px;
+  text-align: center;
+  font-size: 40px;
+  border: 1px darkgrey solid;
+}
+
+.clear {
+  width: 333px;
+}
+
+.zero {
+  width: 333px;
+}
+
+.operations {
+  background-color: #a0001e;
+  color: white;
+  font-size: 40px;
+}
