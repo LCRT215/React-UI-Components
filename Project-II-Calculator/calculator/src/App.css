@@ -1,0 +1,6 @@
+.container {
+  box-sizing: border-box;
+  width: 450px;
+  height: auto;
+  border: darkgray solid 3px;
+}
