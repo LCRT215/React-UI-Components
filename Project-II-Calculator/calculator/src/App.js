@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import CalculatorDisplay from "./components/DisplayComponents/CalculatorDisplay.js";
 import NumberButton from "./components/ButtonComponents/NumberButton.js";
+import ActionButton from "./components/ButtonComponents/ActionButton.js";
 
 const App = () => {
   return (
@@ -9,7 +10,7 @@ const App = () => {
       <CalculatorDisplay />
       <div className="number-containers">
         <div className="row1">
-          <NumberButton buttonStyle="clear" text="clear" />
+          <ActionButton buttonStyle="clear" text="clear" />
           <NumberButton buttonStyle="operations top" text="÷" />
         </div>
         <div className="row1">
@@ -31,7 +32,7 @@ const App = () => {
           <NumberButton buttonStyle="operations" text="+" />
         </div>
         <div className="row4">
-          <NumberButton buttonStyle="zero" text="0" />
+          <ActionButton buttonStyle="zero" text="0" />
           <NumberButton buttonStyle="operations top" text="=" />
         </div>
       </div>
